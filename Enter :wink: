@@ -1,0 +1,67 @@
+Update 1
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: GibbsV3 <nidhishyarlagadda@Nidhishs-MacBook-Pro.local>
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   .github/workflows/autoUpdate.yml
+#	modified:   package-lock.json
+#	modified:   package.json
+#	new file:   public/background1.jpg
+#	deleted:    public/favicon.ico
+#	new file:   public/images/criss-cross.webp
+#	new file:   public/images/dark-honeycomb.png
+#	new file:   public/images/dot.webp
+#	new file:   public/images/mountainsL.jpg
+#	new file:   public/images/prism.png
+#	new file:   public/images/repeated-square-dark.webp
+#	new file:   public/images/subtle_surface.webp
+#	modified:   public/index.html
+#	new file:   public/landing.css
+#	deleted:    public/logo192.png
+#	deleted:    public/logo512.png
+#	deleted:    public/manifest.json
+#	deleted:    public/robots.txt
+#	new file:   public/skills.css
+#	new file:   public/styles.css
+#	deleted:    src/App.css
+#	deleted:    src/App.js
+#	new file:   src/App.jsx
+#	deleted:    src/App.test.js
+#	new file:   src/components/AboutMe.jsx
+#	new file:   src/components/ContactDetail.jsx
+#	new file:   src/components/Experience.jsx
+#	new file:   src/components/Footer.jsx
+#	new file:   src/components/Job.jsx
+#	new file:   src/components/Landing.jsx
+#	new file:   src/components/Navbar.jsx
+#	new file:   src/components/Passion.jsx
+#	new file:   src/components/Passions.jsx
+#	new file:   src/components/Skill.jsx
+#	new file:   src/components/Skills.jsx
+#	new file:   src/components/images/UconnLogo.jpeg
+#	new file:   src/components/images/fiddle.gif
+#	new file:   src/components/images/fitness.gif
+#	new file:   src/components/images/goal.gif
+#	new file:   src/components/images/mountains.jpg
+#	new file:   src/components/images/p.JPG
+#	new file:   src/components/images/pCloseUp.JPG
+#	new file:   src/components/images/video-camera.gif
+#	new file:   src/components/interest.jsx
+#	new file:   src/components/interests.js
+#	new file:   src/components/js/defaultVariant.js
+#	deleted:    src/index.css
+#	modified:   src/index.js
+#	deleted:    src/logo.svg
+#	deleted:    src/reportWebVitals.js
+#	deleted:    src/setupTests.js
+#	new file:   src/test.js
+#
+
+
+:
