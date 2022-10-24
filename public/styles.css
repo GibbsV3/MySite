@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+b {
+  font-weight: bold 700;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: #bebebe;
+  background-image: url("images/criss-cross.webp");
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+h2 {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+ul {
+  margin: 0;
+}
+
+/* Classes */
+.bImage {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: relative;
+}
+.body {
+  height: 100vh;
+}
+.box {
+  background-color: #f0f0f0;
+  box-shadow: 0 0px 10px black;
+  border-radius: 20px;
+}
+.contactDetail {
+  margin-top: 20px;
+}
+.contactDetail i {
+  display: inline-block;
+  margin-right: 5px;
+  color: #4e95a3;
+}
+.contactDetail p {
+  display: inline-block;
+}
+.emph {
+  font: #cfa362;
+}
+.eTitle {
+  width: 20%;
+  margin: 0 auto 0;
+  height: 100px;
+  min-width: fit-content;
+  min-height: fit-content;
+  text-align: center;
+  align-items: center;
+  background-color: #64bfd1;
+  box-shadow: 0 0 10px black;
+  border-radius: 20px;
+}
+.expanded {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 1s all;
+}
+.fade-in {
+  visibility: visible;
+  opacity: 1;
+
+  transition: visibility 0.75s ease, opacity 0.75s ease;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+.infoWrapper {
+  padding: 20px;
+}
+.info {
+  margin: 80px;
+  display: block;
+  width: 50%;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  min-height: fit-content;
+}
+.jobs {
+  flex-direction: column;
+  align-items: center;
+}
+.jobDescription {
+  margin-top: 10px;
+}
+.jobTitle {
+  padding-top: 20px;
+  text-align: center;
+}
+.landingBackground {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.myInfo {
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.passion {
+}
+.percentage {
+  position: absolute;
+  right: 20px;
+  color: #4e95a3;
+  font-size: 12px;
+  font-weight: 300;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.personal {
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+.pDesc {
+  overflow: auto;
+  display: flex;
+}
+.pImg {
+  width: 120px;
+  border-radius: 100%;
+  position: relative;
+  margin-right: 5px;
+}
+.pImgContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.pTitle {
+  text-align: center;
+  margin: 20px 0;
+}
+.profileDesc {
+  text-align: left;
+}
+.profileDesc p {
+  text-indent: 30px;
+}
+.profilePic {
+  width: 300px;
+  border-radius: 20px;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.skillsBar {
+  display: inline-block;
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  right: 50px;
+  /* background-color: #bebebe; */
+  background-color: #d9d9d9;
+}
+.skillsProg {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  background-color: #4e95a3;
+}
+
+.skillsDetails {
+  padding-left: 20px;
+  justify-content: space-between;
+}
+.detail {
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+}
+.skillsDetails:not(:last-child) {
+  margin-bottom: 20px;
+}
+.skillsWrapper {
+  padding: 0;
+  margin: 0;
+}
+.skillsContainer {
+  padding-top: 20px;
+  width: 90%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.skillsTitle {
+  text-align: center;
+}
+.text {
+  display: inline-block;
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.textHidden {
+  width: 0%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+
+.text h1,
+p {
+  margin: 0;
+  display: block;
+}
+.text h1 {
+  font-size: 80px;
+  letter-spacing: 5px;
+  font-family: "Marck Script", cursive;
+}
+.text p {
+  font-weight: 100;
+  font-size: 20px;
+  position: relative;
+}
+.uconnLogo {
+  width: 500px;
+  box-shadow: 0 0px 10px black;
+  border-radius: 20px;
+  margin: 60px auto 0;
+}
+/* IDs */
+#aboutMe {
+  margin-top: 50px;
+  height: fit-content;
+  padding: 50px;
+}
+#basicInfo {
+  padding: 0px 100px 100px;
+}
+#experience {
+  margin-top: 50px;
+  justify-content: center;
+}
+#interests {
+  flex-direction: column;
+  align-items: center;
+}
+#landing {
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  color: white;
+  background-color: #1f1f1f;
+  /* background-image: url("./images/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+#passions {
+  margin: 40px auto 80px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  height: 350px;
+  width: 350px;
+  background-color: #d1a449;
+  box-shadow: 0 0 10px black;
+}
+#navbar {
+  height: fit-content;
+}
+#passions h1 {
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#passions footer {
+  position: relative;
+  bottom: -40px;
+}
+#footer {
+  height: 200px;
+  position: relative;
+  text-align: center;
+  color: #f0f0f0;
+  background-color: #1f1f1f;
+  padding: 20px;
+}
