@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/GibbsV3/MySite.git/static/js/main.78d88fd9.js",
-    "static/media/mountains.jpg": "/GibbsV3/MySite.git/static/media/mountains.8e1e7ca2dd40a939800e.jpg",
-    "static/media/p.JPG": "/GibbsV3/MySite.git/static/media/p.abf9dc4e8b8aa2cf50b8.JPG",
-    "static/media/fiddle.gif": "/GibbsV3/MySite.git/static/media/fiddle.8cde7fcee5fbac1da2a1.gif",
-    "static/media/goal.gif": "/GibbsV3/MySite.git/static/media/goal.baf3ccbf60774a286ea2.gif",
-    "static/media/video-camera.gif": "/GibbsV3/MySite.git/static/media/video-camera.d1da7fda8ad7ab72b79d.gif",
-    "static/media/fitness.gif": "/GibbsV3/MySite.git/static/media/fitness.9a6955b811bca075673b.gif",
-    "static/media/UconnLogo.jpeg": "/GibbsV3/MySite.git/static/media/UconnLogo.9bbd6cc7628f1e777b96.jpeg",
-    "index.html": "/GibbsV3/MySite.git/index.html",
-    "main.78d88fd9.js.map": "/GibbsV3/MySite.git/static/js/main.78d88fd9.js.map"
+    "main.js": "/GibbsV3/MySite/static/js/main.7f7a3fe9.js",
+    "static/media/mountains.jpg": "/GibbsV3/MySite/static/media/mountains.8e1e7ca2dd40a939800e.jpg",
+    "static/media/p.JPG": "/GibbsV3/MySite/static/media/p.abf9dc4e8b8aa2cf50b8.JPG",
+    "static/media/fiddle.gif": "/GibbsV3/MySite/static/media/fiddle.8cde7fcee5fbac1da2a1.gif",
+    "static/media/goal.gif": "/GibbsV3/MySite/static/media/goal.baf3ccbf60774a286ea2.gif",
+    "static/media/video-camera.gif": "/GibbsV3/MySite/static/media/video-camera.d1da7fda8ad7ab72b79d.gif",
+    "static/media/fitness.gif": "/GibbsV3/MySite/static/media/fitness.9a6955b811bca075673b.gif",
+    "static/media/UconnLogo.jpeg": "/GibbsV3/MySite/static/media/UconnLogo.9bbd6cc7628f1e777b96.jpeg",
+    "index.html": "/GibbsV3/MySite/index.html",
+    "main.7f7a3fe9.js.map": "/GibbsV3/MySite/static/js/main.7f7a3fe9.js.map"
   },
   "entrypoints": [
-    "static/js/main.78d88fd9.js"
+    "static/js/main.7f7a3fe9.js"
   ]
 }
