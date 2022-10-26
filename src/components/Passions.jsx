@@ -58,7 +58,7 @@ function Passions() {
           alt="Barbell"
           desc="I started wieght lifting at the end of highschool and I have continued ever since. 
           The gym is a place of zen for me where all my problems seem to float away. I definitely use it as a form of therapy. My personal records are:"
-          list={["Bench: 225lbs", "Squat: 405lbs", "DeadliftL 335lbs"]}
+          list={["Bench: 225lbs", "Squat: 405lbs", "Deadlift: 335lbs"]}
         />
         <Passion
           title="Movies"
@@ -70,8 +70,8 @@ function Passions() {
           list={[
             "Intersteller",
             "Inception",
-            "Imitation Game",
-            "V for Vendetta",
+            "Avatar",
+            "Lord of the Rings: The Two Towers",
             "Pirates of the Carribean: At World's End",
           ]}
         />
