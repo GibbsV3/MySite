@@ -59,21 +59,26 @@ function Landing() {
       // }}
     >
       {assetsLoaded ? (
-        <img className="landingBackground" src={mountain} alt="mountain"></img>
+        <div>
+          <img
+            className="landingBackground"
+            src={mountain}
+            alt="mountain"
+          ></img>
+          <div className="text">
+            <h1 className={fadeTitle}>I'm Nidhish</h1>
+            <div className={fadeDesc}>
+              <p>
+                {/* NEED TO CHANGE INLINE CSS TO STYLESHEET */}
+                an <span style={{ color: "#FFC978" }}>aspiring</span> fullstack
+                developer
+              </p>
+            </div>
+          </div>
+        </div>
       ) : (
         <p>Loading Assets</p>
       )}
-
-      <div className="text">
-        <h1 className={fadeTitle}>I'm Nidhish</h1>
-        <div className={fadeDesc}>
-          <p>
-            {/* NEED TO CHANGE INLINE CSS TO STYLESHEET */}
-            an <span style={{ color: "#FFC978" }}>aspiring</span> fullstack
-            developer
-          </p>
-        </div>
-      </div>
     </div>
   );
 }
