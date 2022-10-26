@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Skills from "./Skills";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import pImage from "./images/p.JPG";
 import variant from "./js/defaultVariant";
 import uconn from "./images/UconnLogo.jpeg";
