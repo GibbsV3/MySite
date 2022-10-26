@@ -115,6 +115,9 @@ ul {
   height: 100%;
   position: relative;
 }
+.minWidth {
+  min-width: 200px;
+}
 .myInfo {
   overflow: hidden;
   padding: 20px;
@@ -250,7 +253,7 @@ p {
   position: relative;
 }
 .uconnLogo {
-  width: 500px;
+  width: 60%;
   box-shadow: 0 0px 10px black;
   border-radius: 20px;
   margin: 60px auto 0;

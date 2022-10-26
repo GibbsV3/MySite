@@ -15,7 +15,7 @@ function Passion(props) {
       whileInView="visible"
       initial="hidden"
       viewport={{ once: true }}
-      className="row info box"
+      className="row minWidth info box"
     >
       <div className="pTitle">
         <h3>{props.title}</h3>

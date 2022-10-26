@@ -5,7 +5,7 @@ import variant from "./js/defaultVariant";
 function Skills() {
   return (
     <motion.div
-      className="skillsContainer box"
+      className="skillsContainer minWidth box"
       variants={variant}
       whileInView="visible"
       viewport={{ once: true }}

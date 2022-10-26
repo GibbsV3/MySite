@@ -22,7 +22,7 @@ function AboutMe() {
       <div className="row educationSkills">
         <div className="col-lg-6 col-md-12" id="basicInfo">
           <motion.div
-            className="myInfo box"
+            className="myInfo box minWidth"
             variants={variant}
             whileInView="visible"
             viewport={{ once: true }}
@@ -48,7 +48,7 @@ function AboutMe() {
             </div>
           </motion.div>
           <motion.div
-            className="infoWrapper box"
+            className="infoWrapper minWidth box"
             variants={variant}
             whileInView="visible"
             viewport={{ once: true }}
@@ -91,7 +91,7 @@ function AboutMe() {
             whileInView="visible"
             viewport={{ once: true }}
             initial="hidden"
-            className="uconnLogo row"
+            className="uconnLogo minWidth row"
             src={uconn}
             alt="UConn Logo"
           />

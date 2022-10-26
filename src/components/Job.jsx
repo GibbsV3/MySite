@@ -11,7 +11,7 @@ function Job(props) {
   };
   return (
     <motion.div
-      className="row info box"
+      className="row minWidth info box"
       variants={variant}
       whileInView="visible"
       initial="hidden"
