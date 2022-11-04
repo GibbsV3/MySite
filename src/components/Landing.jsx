@@ -70,8 +70,8 @@ function Landing() {
             <div className={fadeDesc}>
               <p>
                 {/* NEED TO CHANGE INLINE CSS TO STYLESHEET */}
-                an <span style={{ color: "#FFC978" }}>aspiring</span> fullstack
-                developer
+                an <span style={{ color: "#FFC978" }}>aspiring</span> software
+                engineer
               </p>
             </div>
           </div>
