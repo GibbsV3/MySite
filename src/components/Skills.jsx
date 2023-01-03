@@ -21,6 +21,9 @@ function Skills() {
         <Skill name="Bootstrap" progress="40%" />
         <Skill name="HTML" progress="40%" />
         <Skill name="CSS" progress="40%" />
+        <Skill name="React-Native" progress="30%" />
+        <Skill name="Redux" progress="30%" />
+        <Skill name="Git" progress="30%" />
         <Skill name="JavaScript" progress="30%" />
         <Skill name="jQuery" progress="20%" />
         <Skill name="C" progress="20%" />

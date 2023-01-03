@@ -16,6 +16,17 @@ function Experience() {
       </motion.div>
       <div className="jobs row">
         <Job
+          title="Contestant"
+          employer="See You Later, Hackulator 2"
+          start="December 30th, 2022"
+          end="January 1st, 2023"
+          description={[
+            "Lead a team of four resulting in the creation of a productivity app.",
+            "Organized hourly meetings and coordinated work between teammates.",
+            "Successfully utilized React-Native and Redux after quickly learning them in under 24 hours.",
+          ]}
+        />
+        <Job
           title="Student Conduct Assistant"
           employer="Bentley University Office of Student Conduct"
           start="June 2021"
