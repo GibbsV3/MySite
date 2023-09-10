@@ -16,6 +16,16 @@ function Experience() {
       </motion.div>
       <div className="jobs row">
         <Job
+          title="Intern"
+          employer="SensorWorx"
+          start="May 8th, 2023"
+          end="August 18th, 2023"
+          description={[
+            "Utilized .NET to create GUIs that query databases, make HTTP requests to trigger Jenkins builds, and use a REST API to communicate with a Bitbucket Server.",
+            "Created a program that queries a database, uses multithreading to process the data, and generates a stylized report or Excel file using XML.",
+          ]}
+        />
+        <Job
           title="Contestant"
           employer="See You Later, Hackulator 2"
           start="December 30th, 2022"
@@ -26,6 +36,7 @@ function Experience() {
             "Successfully utilized React-Native and Redux after quickly learning them in under 24 hours.",
           ]}
         />
+
         <Job
           title="Student Conduct Assistant"
           employer="Bentley University Office of Student Conduct"

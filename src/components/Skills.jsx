@@ -16,18 +16,21 @@ function Skills() {
         <Skill name="Python" progress="75%" />
         <Skill name="Java" progress="60%" />
         <Skill name="Microsoft Access" progress="60%" />
+        <Skill name="C#" progress="50%" />
         <Skill name="Scheme" progress="50%" />
+        <Skill name="Git" progress="50%" />
         <Skill name="React.js" progress="45%" />
         <Skill name="Bootstrap" progress="40%" />
         <Skill name="HTML" progress="40%" />
         <Skill name="CSS" progress="40%" />
         <Skill name="React-Native" progress="30%" />
         <Skill name="Redux" progress="30%" />
-        <Skill name="Git" progress="30%" />
         <Skill name="JavaScript" progress="30%" />
+        <Skill name="SQL" progress="30%" />
         <Skill name="jQuery" progress="20%" />
         <Skill name="C" progress="20%" />
         <Skill name="Node.js" progress="20%" />
+        <Skill name="Jenkins" progress="20%" />
       </div>
     </motion.div>
   );
