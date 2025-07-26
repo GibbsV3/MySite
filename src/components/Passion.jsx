@@ -22,7 +22,7 @@ function Passion(props) {
       </div>
       <div className="pDesc">
         <div className="pImgContainer">
-          <img className="pImg" alt={props.alt} src={props.img}></img>
+          <img className="pImg" alt={props.alt} src={props.img.src}></img>
         </div>
         <div>
           <p>{props.desc}</p>

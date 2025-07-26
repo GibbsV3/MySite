@@ -62,7 +62,7 @@ function Landing() {
         <div>
           <img
             className="landingBackground"
-            src={mountain}
+            src={mountain.src}
             alt="mountain"
           ></img>
           <div className="text">
@@ -70,8 +70,8 @@ function Landing() {
             <div className={fadeDesc}>
               <p>
                 {/* NEED TO CHANGE INLINE CSS TO STYLESHEET */}
-                an <span style={{ color: "#FFC978" }}>aspiring</span> software
-                engineer
+                an <span style={{ color: "#FFC978" }}>aspiring</span> full-stack
+                developer
               </p>
             </div>
           </div>

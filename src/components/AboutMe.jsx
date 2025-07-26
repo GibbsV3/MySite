@@ -1,7 +1,7 @@
 import React from "react";
 import Skills from "./Skills";
 import { motion } from "framer-motion";
-import pImage from "./images/p.JPG";
+import pImage from "./images/p.jpg";
 import variant from "./js/defaultVariant";
 import uconn from "./images/UconnLogo.jpeg";
 
@@ -28,7 +28,7 @@ function AboutMe() {
             viewport={{ once: true }}
             initial="hidden"
           >
-            <img className="profilePic" src={pImage} alt="Nidhish Yarlagadda" />
+            <img className="profilePic" src={pImage.src} alt="Nidhish Yarlagadda" />
             <hr />
             <h3>Who am I?</h3>
             <div className="profileDesc">
@@ -60,7 +60,7 @@ function AboutMe() {
               Majoring in Computer Science and Engineering expecting to graduate
               in May 2024
             </p>
-            <p>GPA: 3.968</p>
+            <p>GPA: 3.989</p>
             <p>Relevent Classwork:</p>
             <ul>
               <li>

@@ -49,26 +49,26 @@ function Passions() {
           alt="F1"
           desc="I have been a huge fan of f1 for the last 4 years. At first I would watch 
           the race replays on youtube in between classes in highschool, 
-          but in 2021 I started watching the actual races and I fell in love with the sport. My favorite driver is Fernando Alonso. 
+          but in 2021 I started watching the actual races and I fell in love with the sport. My favorite driver is Lewis Hamilton. 
           But, I am also rooting for Lewis Hamilton to win his eight championship. My favorite team is Mclaren because I love their road cars."
         />
         <Passion
           title="Weight Lifting"
           img={weight}
           alt="Barbell"
-          desc="I started wieght lifting at the end of highschool and I have continued ever since. 
+          desc="I started weight lifting at the end of highschool and I have continued ever since. 
           The gym is a place of zen for me where all my problems seem to float away. I definitely use it as a form of therapy. My personal records are:"
-          list={["Bench: 225lbs", "Squat: 405lbs", "Deadlift: 335lbs"]}
+          list={["Bench: 245lbs", "Squat: 405lbs", "Deadlift: 405lbs"]}
         />
         <Passion
           title="Movies"
           img={movie}
           alt="Film Camera"
-          desc="I love watching movies. My favorite aspect of a movie is the sountrack, 
+          desc="I love watching movies. My favorite aspect of a movie is the soundtrack, 
           so if the movie has a good soundtrack, chances are I have seen it. Currently, my top 5 favorite
           movies are:"
           list={[
-            "Intersteller",
+            "Interstellar",
             "Inception",
             "Avatar",
             "Lord of the Rings: The Two Towers",
