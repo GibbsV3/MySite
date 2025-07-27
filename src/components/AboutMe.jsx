@@ -92,7 +92,7 @@ function AboutMe() {
             viewport={{ once: true }}
             initial="hidden"
             className="uconnLogo minWidth row"
-            src={uconn}
+            src={uconn.src}
             alt="UConn Logo"
           />
         </div>
